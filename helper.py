@@ -31,7 +31,7 @@ class VMManager:
             credentials, AZURE_SUBSCRIPTION_ID
         )
 
-        self.GROUP_NAME = "rg-playground"
+        self.GROUP_NAME = ""
 
     def list_vms(self):
         """Doc string."""
