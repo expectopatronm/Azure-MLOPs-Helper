@@ -17,10 +17,10 @@ class VMManager:
     """Doc string."""
 
     def __init__(self):
-        AZURE_SUBSCRIPTION_ID = "57a5bba4-53e7-4ae5-a9c7-c3e4d02d5a8c"
-        AZURE_CLIENT_ID = "f7ae1851-3b77-4ce5-b56c-900c328f928b"
-        AZURE_CLIENT_SECRET = "-T-8Q~rDmN5pYhHtTMIahCJtPu237xfL5gaLqccQ"
-        AZURE_TENANT_ID = "c5f6f6e0-4c59-4aa1-bcd7-033f5f211b1c"
+        AZURE_SUBSCRIPTION_ID = ""
+        AZURE_CLIENT_ID = ""
+        AZURE_CLIENT_SECRET = ""
+        AZURE_TENANT_ID = ""
 
         credentials = ServicePrincipalCredentials(
             client_id=AZURE_CLIENT_ID,
